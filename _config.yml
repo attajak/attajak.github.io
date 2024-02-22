@@ -38,6 +38,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-admin
+  - jekyll-compose
 
 whitelist:
   - jekyll-admin
