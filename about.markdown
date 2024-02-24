@@ -2,16 +2,15 @@
 layout: page
 title: About
 ---
+ชื่อ คิง  เกิด ๘ สิงหาฯ  เลือดกรุ๊ปเอ
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+ชอบดูหนัง ฟังเพลง เล่นเกม
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+### Support or Contact
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[Facebook](https://facebook.com/attajak) -
+[Twitter](https://twitter.com/attajak) -
+[Instagram](https://instagram.com/attajak) -
+[YouTube](https://youtube.com/@attajak) -
+[Website](https://attajak.wordpress.com) -
+[E-mail](mailto:janrak@gmail.com)
