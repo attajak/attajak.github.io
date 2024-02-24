@@ -33,15 +33,13 @@ github_username:  attajak
 
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-admin
   - jekyll-compose
-
-whitelist:
-  - jekyll-admin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
