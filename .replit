@@ -1,0 +1,13 @@
+run = "bundle install && bundle exec jekyll serve --host=0.0.0.0"
+entrypoint = "index.markdown"
+hidden = [".bundle"]
+modules = ["ruby-3.2:v6-20240209-9e3a339"]
+
+[nix]
+channel = "stable-23_11"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
+
+[deployment]
+run = ["sh", "-c", "bundle install && bundle exec jekyll serve --host=0.0.0.0"]
