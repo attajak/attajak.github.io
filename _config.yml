@@ -31,10 +31,7 @@ header_pages:
   - blog.html
   - about.markdown
 
-author:
-  name: Attajak Janrak
-  email: "janrak@gmail.com"
-
+# Social links
 facebook_username: attajak
 instagram_username: attajak
 twitter_username: attajak
