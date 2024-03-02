@@ -30,6 +30,7 @@ header_pages:
   - index.markdown
   - blog.html
   - about.markdown
+  - contact.md
 
 # Permalink
 permalink: /:categories/:title:output_ext
