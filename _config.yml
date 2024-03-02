@@ -31,11 +31,15 @@ header_pages:
   - blog.html
   - about.markdown
 
+# Permalink none
+permalink: /:categories/:title:output_ext
+
 # Social links
+github_username: attajak
+twitter_username: attajak
 facebook_username: attajak
 instagram_username: attajak
-twitter_username: attajak
-github_username: attajak
+youtube_username: attajak
 mastodon:
   - username: attajak
     instance: mastodon.in.th
@@ -49,7 +53,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-compose
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -59,12 +62,13 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - .bundle
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
