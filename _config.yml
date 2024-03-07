@@ -33,7 +33,7 @@ header_pages:
   - contact.md
 
 # Permalink
-permalink: /:categories/:title:output_ext
+permalink: none
 
 # Social links
 github_username: attajak
@@ -54,6 +54,23 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-admin
+  - jekyll-compose
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      category:
+      tags:
+    posts:
+      description:
+      image:
+      category:
+      tags:
+      published: false
+      sitemap: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -70,11 +87,11 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
   - .git/
   - .github
   - .gitignore
