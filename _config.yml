@@ -28,12 +28,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://attajak.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
   - index.markdown
-  - blog.html
+  - posts.html
   - about.markdown
   - contact.md
 
 # Permalink
-permalink: none
+permalink: pretty
 
 # Social links
 github_username: attajak
@@ -47,14 +47,16 @@ mastodon:
   - username: attajak
     instance: mstdn.in.th
 
-# Build settings
+# Theme
 theme: minima
+minima:
+  date_format: "%-d %b %Y" # "%b %-d, %Y"
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-admin
   - jekyll-compose
 
 jekyll_compose:

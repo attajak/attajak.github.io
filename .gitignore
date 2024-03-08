@@ -4,6 +4,7 @@ _site
 .jekyll-metadata
 .bundle
 vendor
+Gemfile.lock
 .local
 .replit
 replit.nix
