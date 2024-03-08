@@ -27,13 +27,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://attajak.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
-  - index.markdown
+  - index.md
   - posts.html
-  - about.markdown
+  - about.md
   - contact.md
 
 # Permalink
-permalink: pretty
+permalink: none
 
 # Social links
 github_username: attajak
@@ -64,12 +64,12 @@ jekyll_compose:
     drafts:
       description:
       image:
-      category:
+      categories:
       tags:
     posts:
       description:
       image:
-      category:
+      categories:
       tags:
       published: false
       sitemap: false
