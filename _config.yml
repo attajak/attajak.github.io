@@ -57,7 +57,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-compose
 
 jekyll_compose:
   default_front_matter:
@@ -66,13 +65,15 @@ jekyll_compose:
       image:
       categories:
       tags:
+      published: false
+      sitemap: false
     posts:
       description:
       image:
       categories:
       tags:
-      published: false
-      sitemap: false
+      published: true
+      sitemap: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
