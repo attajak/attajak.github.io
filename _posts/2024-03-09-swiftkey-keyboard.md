@@ -3,13 +3,13 @@ layout: post
 title: "SwiftKey Keyboard: แป้นพิมพ์ AI ที่ดีที่สุดสำหรับ Android และ iOS"
 date: 2024-03-09 08:34 +0700
 description: "SwiftKey Keyboard: แป้นพิมพ์ AI ที่ดีที่สุดสำหรับ Android และ iOS"
-image:
+image: "assets/images/posts/swiftkey-keyboard.png"
 categories: phone
 tags: "Swiftkey Keyboard"
 published: true
 sitemap: true
 ---
-**SwiftKey Keyboard: แป้นพิมพ์ AI ที่ดีที่สุดสำหรับ Android และ iOS**
+![swiftkey-keyboard](assets/images/posts/swiftkey-keyboard.png)
 
 SwiftKey Keyboard เป็นแป้นพิมพ์ AI ที่ได้รับความนิยมมากที่สุดสำหรับ Android และ iOS แป้นพิมพ์นี้ขึ้นชื่อในด้านความสามารถในการคาดเดาคำที่แม่นยำและการแก้ไขอัตโนมัติที่มีประสิทธิภาพ นอกจากนี้ยังมาพร้อมกับคุณสมบัติมากมายที่ทำให้การพิมพ์บนอุปกรณ์มือถือของคุณเป็นเรื่องง่ายและสนุกสนาน
 
