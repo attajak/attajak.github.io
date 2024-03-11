@@ -1,4 +1,4 @@
 ---
 layout: categories
-title: Catgories
+title: Categories
 ---
