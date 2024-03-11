@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: single
 title: About
 ---
-![attajak](assets/images/attajak.jpg)
+![attajak](https://attajak.github.io/assets/images/attajak.jpg)
+{{ site.description }}
 
-ชื่อ คิง  เกิด ๘ สิงหาฯ  เลือดกรุ๊ปเอ
+ชื่อ คิง  เกิด ๘ สิงหาฯ  เลือดกรุ๊ป เอ
 
 ชอบดูหนัง ฟังเพลง เล่นเกม
 

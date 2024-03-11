@@ -1,5 +1,7 @@
 ## Welcome to Attajak Janrak
 
+![attajak](assets/images/attajak.jpg)
+
 ชื่อ คิง  เกิด ๘ สิงหาฯ  เลือดกรุ๊ปเอ
 
 ชอบดูหนัง ฟังเพลง เล่นเกม

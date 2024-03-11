@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Hello World !!!"
 date: 2024-02-22 14:06 +0700
 categories: "uncategoriesed"
