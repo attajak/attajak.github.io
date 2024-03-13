@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "th"
 title                    : "Attajak Janrak"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "attajak.github.io" # site tagline that appears below site title in masthead
 name                     : "Attajak Janrak"
 description              : "An amazing website."
 url                      : "https://attajak.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -86,7 +86,7 @@ facebook:
   username               : "attajak"
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "assets/images/attajak.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -140,7 +140,7 @@ footer:
       url: https://facebook.com/attajak
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: https://github.com/attajak
+      url: https://github.com/attajak
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -223,7 +223,7 @@ sass:
 
 # Outputting
 permalink: pretty
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Bangkok # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
