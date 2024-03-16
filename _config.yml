@@ -20,7 +20,7 @@ title                    : "Attajak Janrak"
 title_separator          : "-"
 subtitle                 : "attajak.github.io" # site tagline that appears below site title in masthead
 name                     : "Attajak Janrak"
-description              : "An amazing website."
+description              : 'ชื่อคิง เกิด ๘ สิงหาฯ เลือดกรุ๊ปเอ<br /> ชอบดูหนัง ฟังเพลง เล่นเกม<br /> "งานมีขี้บ่อย งานน้อยไม่ค่อยขี้ งานไม่มีไม่ขี้เลย"<br /> "แค่อยากทำหน้าที่ให้ดีที่สุด ไม่ได้อยากเป็นวีรบุรุษของใคร"'
 url                      : "https://attajak.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "attajak/attajak.githun.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Attajak Janrak"
   avatar           : "assets/images/attajak.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "ชื่อคิง เกิด ๘ สิงหาฯ เลือดกรุ๊ปเอ<br /> ชอบดูหนัง ฟังเพลง เล่นเกม"
   location         : "Trang, Thailand."
   email            : janrak@gmail.com
   links:
