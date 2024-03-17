@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
+theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -27,7 +27,7 @@ repository               : "attajak/attajak.githun.io" # GitHub username/repo-na
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/attajak.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs            : true # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -81,9 +81,9 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "attajak"
+  username               : &twitter "attajak"
 facebook:
-  username               : "attajak"
+  username               : &facebook "attajak"
   app_id                 :
   publisher              :
 og_image                 : "assets/images/attajak.jpg" # Open Graph/Twitter default site image
@@ -112,10 +112,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:janrak@gmail.com"
+      url: "mailto:attajakjanrak@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://attajak.github.io"
+      url: "https://attajak.wordpress.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/attajak"
@@ -143,7 +143,7 @@ footer:
       url: https://github.com/attajak
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: https://gjtlab.com/attajak
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -156,8 +156,6 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _posts
-  - _drafts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -185,8 +183,6 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
-  - .local
-  - .upm
   
 keep_files:
   - .git
@@ -223,7 +219,7 @@ sass:
 
 # Outputting
 permalink: pretty
-paginate: 10 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Bangkok # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
