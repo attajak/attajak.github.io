@@ -2,7 +2,12 @@
 layout: single
 title: Contact
 ---
+
 ## Contact or Support
+
+[GitHub](https://github.com/attajak)
+
+[GitHub Pages](https://attajak.github.io)
 
 [Facebook](https://facebook.com/attajak)
 
@@ -12,8 +17,10 @@ title: Contact
 
 [YouTube](https://youtube.com/@attajak)
 
-[GitHub](https://github.com/attajak)
+[Website](https://attajak.wordpress.com)
 
-[GitHub Pages](https://attajak.github.io)
+[Blogger](https://attajak.blogspot.com)
 
-[E-mail](mailto:janrak@gmail.com)
+[Gmail](mailto:janrak@gmail.com)
+
+[Outlook](mailto:attajak@outlook.com)
