@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "เกี่ยวกับ"
+author_profile: false
 ---
 
 **ชื่อ** คิง **เกิด** ๘ สิงหาฯ **เลือดกรุ๊ป** เอ

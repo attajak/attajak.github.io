@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "ติดต่อ"
+author_profile: false
 ---
 
 [GitHub](https://github.com/attajak)
