@@ -1,4 +1,4 @@
-[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml)
+[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml) [![CodeQL](https://github.com/attajak/attajak.github.io/actions/workflows/codeql.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/codeql.yml)
 
 ## Welcome to Attajak Janrak
 
