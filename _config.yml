@@ -12,7 +12,7 @@
 
 theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "th"
@@ -218,7 +218,7 @@ sass:
 
 
 # Outputting
-permalink: pretty
+permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Bangkok # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -299,4 +299,4 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
