@@ -1,5 +1,5 @@
 ---
 layout: categories
 title: "หมวดหมู่"
-author_profiles: false
+author_profile: false
 ---
