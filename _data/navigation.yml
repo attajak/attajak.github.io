@@ -1,17 +1,16 @@
 # main links
 main:
-  - title: "Home"
+  - title: "หน้าแรก"
     url: /
-  - title: "Posts"
+  - title: "โพสต์"
     url: /posts/
-    children:
-      - title: "Categories"
-        url: /categories/
-      - title: "Tags"
-        url: /tags/
-  - title: "About"
+  - title: "หมวดหมู่"
+    url: /categories/
+  - title: "แท็ก"
+    url: /tags/
+  - title: "เกี่ยวกับ"
     url: /about/
-  - title: "Contact"
+  - title: "ติดต่อ"
     url: /contact/
   # - title: "Sample Posts"
   #   url: /year-archive/

@@ -1,9 +1,7 @@
 ---
 layout: single
-title: Contact
+title: "ติดต่อ"
 ---
-
-## Contact or Support
 
 [GitHub](https://github.com/attajak)
 

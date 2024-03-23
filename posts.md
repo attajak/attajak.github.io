@@ -1,4 +1,4 @@
 ---
 layout: posts
-title: Posts
+title: "โพสต์"
 ---
