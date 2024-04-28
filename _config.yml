@@ -30,6 +30,8 @@ logo                     : "assets/images/attajak.jpg" # path of logo image to d
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
+copyright                : # "copyright" name, defaults to site.title
+copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -45,12 +47,17 @@ comments:
     theme                : preferred-color-scheme # "github-light" (default), "github-dark"
     issue_term           : pathname # "pathname" (default)
   giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    repo_id              : R_kgDOL0gJEg # Shown during giscus setup at https://giscus.app
+    category_name        : General # Full text name of the category
+    category_id          : DIC_kwDOL0gJEs4CfAhQ # Shown during giscus setup at https://giscus.app
+    discussion_term      : pathname # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : 1 # '1' for enabled (default), '0' for disabled
+    theme                : preferred_color_scheme # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    strict               : 1 # 1 for enabled, 0 for disabled (default)
+    input_position       : top # "top", "bottom" # The comment input box will be placed above or below the comments
+    emit_metadata        : 1 # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
+    lang                 : th # "en" (default)
+    lazy                 : true # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
