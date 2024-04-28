@@ -1,0 +1,17 @@
+run = "bundle install && bundle exec jekyll serve --host=0.0.0.0"
+entrypoint = "README.md"
+hidden = [".bundle", ".local", ".config", ".upm"]
+modules = ["ruby-3.2:v6-20240209-9e3a339", "nodejs-20:v8-20230920-bd784b9"]
+
+[nix]
+channel = "stable-23_11"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix", "Gemfile", "package.json"]
+
+[deployment]
+run = ["sh", "-c", "JEKYLL_ENV=production bundle exec jekyll serve --host=0.0.0.0"]
+
+[[ports]]
+localPort = 4000
+externalPort = 80

@@ -3,7 +3,6 @@ title: "SwiftKey Keyboard: แป้นพิมพ์ AI ที่ดีที�
 date: 2024-03-09 08:34 +0700
 description: "SwiftKey Keyboard: แป้นพิมพ์ AI ที่ดีที่สุดสำหรับ Android และ iOS"
 image: "https://attajak.github.io/assets/images/swiftkey-keyboard/swiftkey-keyboard.png"
-author: Attajak Janrak
 categories: phone
 tags: "Swiftkey Keyboard Android"
 published: true
