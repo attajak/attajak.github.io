@@ -2,11 +2,17 @@
 title: "SwiftKey Keyboard: แป้นพิมพ์ AI ที่ดีที่สุดสำหรับ Android และ iOS"
 date: 2024-03-09 08:34 +0700
 description: "SwiftKey Keyboard: แป้นพิมพ์ AI ที่ดีที่สุดสำหรับ Android และ iOS"
-image: "https://attajak.github.io/assets/images/swiftkey-keyboard/swiftkey-keyboard.png"
+image: "/assets/images/swiftkey-keyboard/swiftkey-keyboard.png"
 categories: phone
 tags: "Swiftkey Keyboard Android"
 published: true
 sitemap: false
+header:
+  overlay_image: /assets/images/swiftkey-keyboard/swiftkey-keyboard.png  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Google Search**](https://google.com)"
+actions:
+- label: "Download"
+  url: "[Google Play Store](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey)"
 ---
 SwiftKey Keyboard เป็นแป้นพิมพ์ AI ที่ได้รับความนิยมมากที่สุดสำหรับ Android และ iOS แป้นพิมพ์นี้ขึ้นชื่อในด้านความสามารถในการคาดเดาคำที่แม่นยำและการแก้ไขอัตโนมัติที่มีประสิทธิภาพ นอกจากนี้ยังมาพร้อมกับคุณสมบัติมากมายที่ทำให้การพิมพ์บนอุปกรณ์มือถือของคุณเป็นเรื่องง่ายและสนุกสนาน
 
@@ -60,4 +66,4 @@ SwiftKey Keyboard เป็นแป้นพิมพ์ AI ที่ยอด�
 
 **ที่มา:** [Microsoft Copilot](https://copilot.microsoft.com)
 
-![Swiftkey-Keyboard](https://attajak.github.io/assets/images/swiftkey-keyboard/swiftkey-keyboard.png)
+![Swiftkey-Keyboard](/assets/images/swiftkey-keyboard/swiftkey-keyboard.png)
