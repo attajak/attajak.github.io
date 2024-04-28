@@ -1,0 +1,23 @@
+# main links
+main:
+  # - title: "ค้นหา"
+  #   url: /search/
+  - title: "หน้าแรก"
+    url: /
+  - title: "โพสต์"
+    url: /posts/
+    children:
+      - title: "หมวดหมู่"
+        url: /categories/
+      - title: "แท็ก"
+        url: /tags/
+  - title: "เกี่ยวกับ"
+    url: /about/
+  - title: "ติดต่อ"
+    url: /contact/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "sitemap.xml"
+  #   url: /sitemap.xml
