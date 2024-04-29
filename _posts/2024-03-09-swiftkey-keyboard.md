@@ -16,7 +16,7 @@ header:
   caption: "Photo credit: [**Google Play Store**](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey)"
   actions:
     - label: "Download"
-      url: "[Microsoft Swiftkey Keyboard](https://www.microsoft.com/en-us/swiftkey?activetab=pivot_1%3aprimaryr2)"
+      url: "[Microsoft Swiftkey Keyboard](https://www.microsoft.com/en-us/swiftkey?activetab=pivot_1%3aprimaryr2)
 ---
 
 SwiftKey Keyboard เป็นแป้นพิมพ์ AI ที่ได้รับความนิยมมากที่สุดสำหรับ Android และ iOS แป้นพิมพ์นี้ขึ้นชื่อในด้านความสามารถในการคาดเดาคำที่แม่นยำและการแก้ไขอัตโนมัติที่มีประสิทธิภาพ นอกจากนี้ยังมาพร้อมกับคุณสมบัติมากมายที่ทำให้การพิมพ์บนอุปกรณ์มือถือของคุณเป็นเรื่องง่ายและสนุกสนาน
