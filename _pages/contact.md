@@ -2,7 +2,6 @@
 title: "ติดต่อ"
 permalink: /contact/
 ---
-
 Platform | Links
 --- | ---
 GitHub | [attajak](https://github.com/attajak)
