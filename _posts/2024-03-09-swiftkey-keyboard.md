@@ -11,15 +11,14 @@ tags:
 published: true
 sitemap: false
 header:
-  overlay_image: /assets/images/swiftkey-keyboard/swiftkey-keyboard.png
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_image: "/assets/images/swiftkey-keyboard/swiftkey-keyboard.png"
+  overlay_filter: "0.5" # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Google Play Store**](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey)"
   actions:
-    - label: "Get on Google Play"
-      url: "[Google Play](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey)"
-    - label: "Get on App Store"
-      url: "[App Store"](https://apps.apple.com/us/app/microsoft-swiftkey-ai-keyboard/id911813648)"
+    - label: "Download"
+      url: "[Microsoft Swiftkey Keyboard](https://www.microsoft.com/en-us/swiftkey?activetab=pivot_1%3aprimaryr2)"
 ---
+
 SwiftKey Keyboard เป็นแป้นพิมพ์ AI ที่ได้รับความนิยมมากที่สุดสำหรับ Android และ iOS แป้นพิมพ์นี้ขึ้นชื่อในด้านความสามารถในการคาดเดาคำที่แม่นยำและการแก้ไขอัตโนมัติที่มีประสิทธิภาพ นอกจากนี้ยังมาพร้อมกับคุณสมบัติมากมายที่ทำให้การพิมพ์บนอุปกรณ์มือถือของคุณเป็นเรื่องง่ายและสนุกสนาน
 
 ### คุณสมบัติหลักของ SwiftKey Keyboard
