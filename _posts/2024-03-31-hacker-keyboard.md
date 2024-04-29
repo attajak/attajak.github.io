@@ -1,10 +1,21 @@
 ---
 title: "Hacker's Keyboard บน Android พิมพ์โค้ดเหมือนโปร!"
 date: 2024-03-31 04:05 +0700
-categories: "phone"
-tags: "Android Hacker Keyboard"
+categories: 
+  - phone
+tags:
+  - android
+  - hacker
+  - keyboard
 published: true
 sitemap: false
+header:
+  overlay_image: /assets/images/hacker-keyboard/hacker-keyboard.png
+  overlay_filter: 0.5
+  caption: "Photo credit: [**Google Play Store**](https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard&hl=en_US)"
+  actions:
+    - label: "Download"
+      url: "https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard&hl=en_US"
 ---
 Hacker's Keyboard แป้นพิมพ์เสมือนที่ออกแบบมาเพื่อการเขียนโปรแกรมโดยเฉพาะ บนระบบ Android มาพร้อมฟีเจอร์ที่ช่วยให้พิมพ์โค้ดได้สะดวกรวดเร็ว แม่นยำ คล้ายคลึงกับการใช้แป้นพิมพ์บนคอมพิวเตอร์
 
