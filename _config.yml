@@ -10,9 +10,9 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                    : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes@master"
-# theme_version          : "4.25.1"
+# theme                  : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes@master"
+theme_version            : "4.25.1"
 minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -248,7 +248,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /posts/:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Bangkok # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -273,7 +273,6 @@ whitelist:
   - jekyll-include-cache
   - jekyll-seo-tag
   - jemoji
-
 
 # Archives
 #  Type
