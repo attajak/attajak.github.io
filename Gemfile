@@ -40,6 +40,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "jekyll-compose", "~> 0.12.0", group: [:jekyll_plugins]
 
+# gem "minimal-mistakes-jekyll", "~> 4.26"
+
 gem "faraday-retry", "~> 2.2"
 
 gem "webrick", "~> 1.8"
