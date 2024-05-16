@@ -21,7 +21,7 @@ title                    : "Attajak Janrak"
 title_separator          : "-"
 subtitle                 : "attajak.github.io" # site tagline that appears below site title in masthead
 name                     : "Attajak Janrak"
-description              : "ชื่อคิง เกิด ๘ สิงหาฯ เลือดกรุ๊ปเอ<br/> ชอบดูหนัง ฟังเพลง เล่นเกม"
+description              : "ชื่อคิง เกิด ๘ สิงหาฯ เลือดกรุ๊ปเอ"
 url                      : "https://attajak.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "attajak/attajak.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -34,7 +34,7 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : "attajak" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
