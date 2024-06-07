@@ -1,7 +1,7 @@
 ---
 title: "เปรียบเทียบ Hugo กับ Jekyll"
 date: 2024-04-18 00:54 +0700
-categories: "Static-Site-Generator"
+categories: "Static-Site-Generators"
 tags: "Hugo Jekyll Static Site Generator SSG"
 published: true
 sitemap: false
