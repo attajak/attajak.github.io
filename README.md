@@ -3,7 +3,7 @@
 ## Badge
 [![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml)
 
-[![@Attajak on Replit](https://replit.com/badge?caption=Project%20on%20Replit)](https://replit.com/@attajak/attajakgithubio)
+[![@Attajak on Replit](https://replit.com/badge?caption=Project%20on%20Replit)](https://replit.com/@attajak)
 
 ## About
 
@@ -52,9 +52,9 @@ Outlook: | [Attajak at Outlook.com](mailto:attajak@outlook.com)
 ## [@attajak](https://github.com/attajak)
 
 - 👋 Hi, I’m [@attajak](https://github.com/attajak)
-- 👀 I’m interested in ... Movies Anime Song Games
-- 🌱 I’m currently learning ... Jekyll, Hugo, SSGs
-- 💞️ I’m looking to collaborate on ... Friends
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ... [Follow or Contact](#contact) <janrak@gmail.com>
 
 <!---
