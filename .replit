@@ -1,7 +1,7 @@
 run = "bundle exec jekyll serve --baseurl=/ --host=0.0.0.0"
 entrypoint = "README.md"
 hidden = [".bundle", ".local", ".config", ".upm"]
-modules = ["ruby-3.2", "nodejs-20"]
+modules = ["ruby-3.2"]
 
 [nix]
 channel = "stable-23_11"
