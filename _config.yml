@@ -17,6 +17,7 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "th"
+rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Attajak Janrak"
 title_separator          : "-"
 subtitle                 : "attajak.github.io" # site tagline that appears below site title in masthead
