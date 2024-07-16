@@ -13,10 +13,10 @@ main:
     url: /about/
   - title: "ติดต่อ"
     url: /contact/
-  - title: "แผนผังเว็บไซต์"
-    url: /sitemap.xml
-  - title: "ค้นหา"
-    url: /search/
+  # - title: "แผนผังเว็บไซต์"
+    # url: /sitemap.xml
+  # - title: "ค้นหา"
+    # url: /search/
 
 posts:
   - title: "โพสต์"
