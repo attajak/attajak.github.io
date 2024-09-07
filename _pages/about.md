@@ -1,7 +1,7 @@
 ---
 title: "เกี่ยวกับ"
 permalink: /about/
-toc: true
+# toc: true
 ---
 ## เกี่ยวกับ
 ### ชื่อ
@@ -36,4 +36,5 @@ toc: true
 
 > งานมีขี้บ่อย งานน้อยไม่ค่อยขี้ งานไม่มีไม่ขี้เลย
 
-![Attajak Janrak](/assets/images/attajak.jpg)
+![Attajak Janrak](https://attajak.github.io/assets/images/attajak.jpg){: .align-center}
+

@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 theme                    : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes@master"
+# remote_theme           : "mmistakes/minimal-mistakes@4.26.2"
 # theme_version          : "4.26.2"
 minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -27,7 +27,7 @@ url                      : "https://attajak.github.io" # the base hostname & pro
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "attajak/attajak.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/attajak.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/attajak.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -203,6 +203,7 @@ exclude:
   - CHANGELOG
   - config
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -217,6 +218,8 @@ exclude:
   - /test # ignore Minimal Mistakes /test
   - .replit
   - replit.nix
+  - .jekyll-cache
+  - .jekyll-metadata
 
 keep_files:
   - .git
