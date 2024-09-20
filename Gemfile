@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1.0"
   gem "jekyll-include-cache", "~> 0.2.1"
   gem "jekyll-gist", "~> 1.5.0"
+  gem "jemoji"
   # gem "jekyll-remote-theme"
 end
 
