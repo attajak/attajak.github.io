@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # gem "jekyll", "~> 4.3.4"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-# gem "minima", "~> 2.5.1"
+# gem "minima", "~> 2.5.2"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 232", group: :jekyll_plugins
@@ -40,8 +40,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "jekyll-compose", "~> 0.12.0", group: [:jekyll_plugins]
-
-# gem "minimal-mistakes-jekyll", "~> 4.26"
 
 gem "faraday-retry", "~> 2.2"
 
