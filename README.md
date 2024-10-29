@@ -41,14 +41,14 @@ Outlook: | [Attajak at Outlook.com](mailto:attajak@outlook.com)
 
 ---
 
-### Quotes
+## Quotes
 
 > แค่อยากทำหน้าที่ให้ดีที่สุด ไม่ได้อยากเป็นวีรบุรุษของใคร
 
 > งานมีขี้บ่อย งานน้อยไม่ค่อยขี้ งานไม่มีไม่ขี้เลย
 
 ---
-
+<!--
 ## [@attajak](https://github.com/attajak)
 
 - 👋 Hi, I’m [@attajak](https://github.com/attajak)
@@ -56,7 +56,7 @@ Outlook: | [Attajak at Outlook.com](mailto:attajak@outlook.com)
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ... [Follow or Contact](#contact) <janrak@gmail.com>
-
+-->
 <!---
 attajak/attajak is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
