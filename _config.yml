@@ -220,6 +220,7 @@ exclude:
   - replit.nix
   - .jekyll-cache
   - .jekyll-metadata
+  - bin
 
 keep_files:
   - .git
@@ -355,6 +356,7 @@ defaults:
       comments: true
       share: true
       related: true
+      sitemap: false
   # _pages
   - scope:
       path: "_pages"
@@ -362,7 +364,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-
+      sitemap: true
 
 jekyll_compose:
 default_front_matter:
@@ -373,7 +375,6 @@ default_front_matter:
     tags:
     author:
     published: false
-    sitemap: false
   posts:
     description:
     image:
@@ -381,4 +382,3 @@ default_front_matter:
     tags:
     author:
     published: true
-    sitemap: false
