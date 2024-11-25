@@ -12,24 +12,26 @@
 
 theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# theme_version          : "4.26.2"
+minimal_mistakes_skin    : "sunrise" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "th"
+rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Attajak Janrak"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "attajak.github.io" # site tagline that appears below site title in masthead
 name                     : "Attajak Janrak"
-description              : "An amazing website."
+description              : "ชื่อคิง เกิด ๘ สิงหาฯ เลือดกรุ๊ปเอ"
 url                      : "https://attajak.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "attajak/attajak.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "favicon.ico" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/attajak.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : true # true, false (default)
+enable_copy_code_button  : # true, false (default)
 copyright                : "Attajak Janrak" # "copyright" name, defaults to site.title
 copyright_url            : "https://attajak.github.io" # "copyright" URL, defaults to site.url
 comments:
@@ -44,32 +46,32 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : preferred-color-scheme # "github-light" (default), "github-dark"
+    issue_term           : pathname # "pathname" (default)
   giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-    strict               : # 1 for enabled, 0 for disabled (default)
-    input_position       : # "top", "bottom" # The comment input box will be placed above or below the comments
-    emit_metadata        : # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
-    lang                 : # "en" (default)
-    lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
+    repo_id              : R_kgDOL0gJEg # Shown during giscus setup at https://giscus.app
+    category_name        : General # Full text name of the category
+    category_id          : DIC_kwDOL0gJEs4CfAkE # Shown during giscus setup at https://giscus.app
+    discussion_term      : pathname # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : 1 # '1' for enabled (default), '0' for disabled
+    theme                : preferred_color_scheme # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    strict               : 1 # 1 for enabled, 0 for disabled (default)
+    input_position       : top # "top", "bottom" # The comment input box will be placed above or below the comments
+    emit_metadata        : 1 # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
+    lang                 : th # "en" (default)
+    lazy                 : true # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : "6LeLC6opAAAAAKUPaIzvFqUn2fbAYpeKKhVtTCu3"
+  secret                 : "6LeLC6opAAAAAGMFDZ4bZ1gHi3kZU4u3wcssABOL"
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : "lunr" # lunr (default), algolia, google
+search_provider          : lunr # lunr (default), algolia, google
 lunr:
   search_within_pages    : true # true, false (default)
 algolia:
@@ -81,49 +83,59 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : 7PPAaf30mc6TXtFmM-GANnhrNsmpbmzqfN_AW8ZZRmE
+bing_site_verification   : E3258CF5FF30C3073F0D7E89F82AE192
 naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : &twitter "attajak"
 facebook:
-  username               :
+  username               : &facebook "attajak"
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/attajak"
+    - "https://facebook.com/attajak"
+    - "https://instagram.com/attajak"
+    - "https://linkedin.com/in/attajak"
+    - "https://github.com/attajak"
+    - "https://gitlab.com/attajak"
+    - "https://youtube.com/@attajak"
+    - "https://attajak.github.io"
+    - "https://attajak.gitlab.io"
+    - "https://attajak.pages.dev"
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-CEJJHV74TX
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Attajak Janrak"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Trang, Thailand"
-  email            : "janrak@gmail.com"
+  avatar           : "/assets/images/attajak.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "ชื่อคิง เกิด ๘ สิงหาฯ เลือดกรุ๊ปเอ<br /> ชอบดูหนัง ฟังเพลง เล่นเกม"
+  location         : "Trang, Thailand."
+  email            : janrak@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:janrak@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://attajak.github.io"
+      url: "https://attajak.wordpress.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/attajak"
@@ -135,31 +147,41 @@ author:
       url: "https://github.com/attajak"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/attajak"
+      url: "https://instagram.com/attajak"
     - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/attajak"
+    - icon: "fab fa-fw fa-gitlab"
+    - url: "https://gitlab.com/attajak"
+    - label: "YouTube"
+    - icon: "fab fa-fw fa-youtube"
+    - url: "https://youtube.com/@attajak"
+    - label: "TikTok"
+    - icon: "fab fa-fw fa-tiktok"
+    - url: "https://tiktok.com/@attajak"
+    - label: "LinkedIn"
+    - icon: "fab fa-fw fa-linkedin"
+    - url: "https://linkedin.com/in/attajak"
+
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/attajak"
+      url: https://twitter.com/attajak
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/attajak"
+      url: https://facebook.com/attajak
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/attajak"
+      url: https://github.com/attajak
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/attajak"
+      url: https://gitlab.com/attajak
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: https://instagram.com/attajak
 
 
 # Reading Files
@@ -190,12 +212,15 @@ exclude:
   - package.json
   - package-lock.json
   - Rakefile
-  - README
+  - README.md
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - .replit
+  - replit.nix
+  - .jekyll-cache
   - .jekyll-metadata
-  - jsconfig.json
+  - bin
 
 keep_files:
   - .git
@@ -231,7 +256,7 @@ sass:
 
 
 # Outputting
-permalink: pretty # /:categories/:title/
+permalink: /:categories/:title/
 timezone: Asia/Bangkok # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -268,6 +293,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
   - jemoji
 
 # mimic GitHub Pages with --safe
@@ -277,8 +303,8 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
   - jemoji
-
 
 # Archives
 #  Type
@@ -330,6 +356,7 @@ defaults:
       comments: true
       share: true
       related: true
+      sitemap: false
   # _pages
   - scope:
       path: "_pages"
@@ -337,3 +364,21 @@ defaults:
     values:
       layout: single
       author_profile: false
+      sitemap: true
+
+jekyll_compose:
+default_front_matter:
+  drafts:
+    description:
+    image:
+    categories:
+    tags:
+    author:
+    published: false
+  posts:
+    description:
+    image:
+    categories:
+    tags:
+    author:
+    published: true
