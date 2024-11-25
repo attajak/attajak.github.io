@@ -1,14 +1,14 @@
 ---
 title: "เกี่ยวกับ"
 permalink: /about/
-# toc: true
 ---
 
 [![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml)
 
 [![@Attajak on Replit](https://replit.com/badge?caption=Project%20on%20Replit)](https://replit.com/@attajak/attajakgithubio#README.md)
 
-## [@attajak](https://github.com/attajak/)
+## Attajak Janrak [@attajak](https://github.com/attajak/)
+
 ### ชื่อ
 คิง อัฏฐจักร จันทร์รักษ์
 ### เกิด
