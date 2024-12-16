@@ -26,9 +26,8 @@ module SkinManager
         site.pages << SkinPage.new(site, skin_name).tap do |page|
           page.data["skin_name"] = skin_name
           page.content = <<~SCSS
-          @import 
-            "minimal-mistakes/skins/{{ page.skin_name }}",
-            "minimal-mistakes";
+          @import "minimal-mistakes/skins/{{ page.skin_name }}";
+          @import "minimal-mistakes";
           SCSS
         end
       end
