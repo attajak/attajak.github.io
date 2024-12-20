@@ -22,7 +22,6 @@ group :jekyll_plugins do
   gem "jekyll-include-cache", "~> 0.2.1"
   gem "jekyll-gist", "~> 1.5.0"
   gem "jemoji"
-  gem "jekyll-remote-theme"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -41,6 +40,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "jekyll-compose", "~> 0.12.0", group: [:jekyll_plugins]
 
-# gem "minimal-mistakes-jekyll", "~> 4.26.2"
+gem "minimal-mistakes-jekyll", "~> 4.26.2"
 
 gem "faraday-retry", "~> 2.2"

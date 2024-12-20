@@ -8,7 +8,10 @@ GitHub: | [attajak](https://github.com/attajak)
 GitHub Pages: | <https://attajak.github.io>
 GitLab: | [attajak](https://gitlab.com/attajak)
 GitLab Pages: | <https://attajak.gitlab.io>
+Google Firebase: | <https://attajak.web.app>
 CloudFlare Pages: | <https://attajak.pages.dev>
+Netlify: | <https://attajak.netlify.app>
+Vercel: | <https://>
 Replit: | [@attajak](https://replit.com/@attajak)
 Facebook: | [attajak](https://facebook.com/attajak)
 Twitter: | [@attajak](https://twitter.com/attajak)
