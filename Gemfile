@@ -26,7 +26,7 @@ end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
+platforms :mingw, :x64_mingw, :mswin, :jruby, :ruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
 end
@@ -43,3 +43,5 @@ gem "jekyll-compose", "~> 0.12.0", group: [:jekyll_plugins]
 gem "minimal-mistakes-jekyll", "~> 4.26.2"
 
 gem "faraday-retry", "~> 2.2"
+
+gem "csv", "~> 3.3"
