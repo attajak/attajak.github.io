@@ -3,9 +3,11 @@ title: "เกี่ยวกับ"
 permalink: /about/
 ---
 
-[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml)
+**Deploy status:** [![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml)
 
+<!-- Raplit badge -->
 [![@Attajak on Replit](https://replit.com/badge?caption=Project%20on%20Replit)](https://replit.com/@attajak/attajakgithubio#README.md)
+<!-- Replit badge -->
 
 ## Attajak Janrak [@attajak](https://github.com/attajak/)
 
@@ -42,4 +44,3 @@ permalink: /about/
 > งานมีขี้บ่อย งานน้อยไม่ค่อยขี้ งานไม่มีไม่ขี้เลย
 
 ![Attajak Janrak](https://attajak.github.io/assets/images/attajak.jpg){: .align-center}
-
