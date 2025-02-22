@@ -3,10 +3,10 @@ main:
     url: /
   - title: "โพสต์"
     url: /posts/
-  - title: "หมวดหมู่"
-    url: /categories/
-  - title: "แท็ก"
-    url: /tags/
+  # - title: "หมวดหมู่"
+    # url: /categories/
+  # - title: "แท็ก"
+    # url: /tags/
   - title: "เกี่ยวกับ"
     url: /about/
   - title: "ติดต่อ"

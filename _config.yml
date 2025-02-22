@@ -114,7 +114,7 @@ analytics:
 author:
   name             : "Attajak Janrak"
   avatar           : "/assets/images/attajak.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "ชื่อคิง เกิด ๘ สิงหาฯ เลือดกรุ๊ปเอ #ดูหนัง #ฟังเพลง #เล่นเกม" # "I am an **amazing** person."
   location         : "Trang, Thailand"
   email            : "janrak@gmail.com"
   links:
@@ -198,6 +198,7 @@ exclude:
   - .jekyll-metadata
   - jsconfig.json
   - .jekyll-cache
+  - .keep
 
 keep_files:
   - .git
@@ -238,7 +239,7 @@ timezone: Asia/Bangkok # https://en.wikipedia.org/wiki/List_of_tz_database_time_
 
 
 # Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
@@ -341,6 +342,10 @@ defaults:
     values:
       layout: single
       author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: false
 
 jekyll_compose:
   default_front_matter:
@@ -349,6 +354,8 @@ jekyll_compose:
       image:
       category:
       tags:
+      published: false
+      sitemap: false
     posts:
       description:
       image:
