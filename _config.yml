@@ -342,10 +342,11 @@ defaults:
     values:
       layout: single
       author_profile: false
-      read_time: true
-      comments: true
-      share: true
+      read_time: false
+      comments: false
+      share: false
       related: false
+      permalink: /:title/
 
 jekyll_compose:
   default_front_matter:
