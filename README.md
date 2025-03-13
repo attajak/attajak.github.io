@@ -1,12 +1,8 @@
 # [attajak.github.io](https://attajak.github.io)
 
-## StatuscBadges
+## Status Badges
 
-[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml)
-|
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/attajak/attajak.github.io/main.svg)](https://results.pre-commit.ci/latest/github/attajak/attajak.github.io/main)
-|
-[![@Attajak on Replit](https://replit.com/badge?caption=Projects%20on%20Replit)](https://replit.com/@attajak)
+[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml) | [![@Attajak on Replit](https://replit.com/badge?caption=Projects%20on%20Replit)](https://replit.com/@attajak)
 
 ## About
 
