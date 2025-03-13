@@ -1,7 +1,7 @@
 ---
 title: "Hacker's Keyboard บน Android พิมพ์โค้ดเหมือนโปร!"
 date: 2024-03-31 04:05 +0700
-categories: 
+categories:
   - phone
 tags:
   - android
