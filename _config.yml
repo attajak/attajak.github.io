@@ -25,7 +25,7 @@ url                      : "https://attajak.github.io" # the base hostname & pro
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "attajak/attajak.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/favicon/apple-touch-icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/attajak.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -113,7 +113,7 @@ analytics:
 # Site Author
 author:
   name             : "Attajak Janrak"
-  avatar           : "/assets/images/attajak.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/attajak.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "ชื่อคิง เกิด ๘ สิงหาฯ เลือดกรุ๊ปเอ #ดูหนัง #ฟังเพลง #เล่นเกม" # "I am an **amazing** person."
   location         : "Trang, Thailand"
   email            : "janrak@gmail.com"
@@ -234,7 +234,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: pretty # /:categories/:title/
 timezone: Asia/Bangkok # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -335,6 +335,7 @@ defaults:
       comments: true
       share: true
       related: true
+      permalink: posts/:categories/:title/
   # _pages
   - scope:
       path: "_pages"

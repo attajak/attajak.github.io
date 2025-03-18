@@ -24,3 +24,7 @@ YouTube | [@attajak](https://youtube.com/@attajak)
 Linkedin | [attajak](https:/linkedin.com/in/attajak)
 Gmail | [Janrak at Gmail.com](mailto:janrak@gmail.com)
 Outlook | [Attajak at Outlook.com](mailto:attajak@outlook.com)
+
+---
+
+![Attajak Janrak](https://attajak.github.io/assets/images/attajak.png){: .align-center}
