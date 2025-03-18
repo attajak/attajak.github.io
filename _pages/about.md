@@ -69,4 +69,4 @@ permalink: /about/
 
 ---
 
-![Attajak Janrak](https://attajak.github.io/assets/images/attajak.jpg){: .align-center}
+![Attajak Janrak](https://attajak.github.io/assets/images/attajak.png){: .align-center}
