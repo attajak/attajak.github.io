@@ -1,8 +1,6 @@
 # [attajak.github.io](https://attajak.github.io)
 
-## Status Badges
-
-[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml) | [![@Attajak on Replit](https://replit.com/badge?caption=Projects%20on%20Replit)](https://replit.com/@attajak)
+[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml) | [![Dependabot Updates](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates) | [![@Attajak on Replit](https://replit.com/badge?caption=Projects%20on%20Replit)](https://replit.com/@attajak)
 
 ## About
 
@@ -14,7 +12,7 @@
 
 **ชอบ**_ดูหนัง-อนิเมะ_ _ฟังเพลง_ _เล่นเกม_
 
-[![attajak](https://attajak.github.io/assets/images/attajak.jpg)](https://attajak.github.io)
+[![attajak](https://attajak.github.io/assets/images/attajak.png)](https://attajak.github.io)
 
 ### Contact
 
