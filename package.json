@@ -2,11 +2,13 @@
   "name": "attajak.github.io",
   "version": "1.0.0",
   "description": "GitHub Pages",
+  "private": "true",
   "scripts": {
     "test": "bundle exec jekyll help",
-    "server": "bundle exec jekyll server -IDot",
-    "server:production": "JEKYLL_ENVIRONMENT=production bundle exec jekyll server -IDot",
-    "build": "JEKYLL_ENVIRONMENT=production bundle exec jekyll build"
+    "server": "bundle exec jekyll server -IDot -b /",
+    "server:production": "JEKYLL_ENVIRONMENT=production npm run server",
+    "build": "JEKYLL_ENVIRONMENT=production bundle exec jekyll build",
+    "update": "bundle update"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,7 @@
     "package"
   ],
   "author": "attajak (https://github.com/attajak)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/attajak/attajak.github.io/issues"
   },

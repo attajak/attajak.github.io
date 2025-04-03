@@ -5,13 +5,8 @@ permalink: /about/
 
 ## [@attajak](https://github.com/attajak/)
 
-[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml) | [![Dependabot Updates](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates)
-
-<!-- Raplit badge start
-
-[![@Attajak on Replit](https://replit.com/badge?caption=Project%20on%20Replit)](https://replit.com/@attajak/attajakgithubio#README.md)
-
-Replit badge end -->
+[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml) | [![Dependabot Updates](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates) | [![@Attajak on Replit](https://replit.com/badge?caption=Project%20on%20Replit)](https://replit.com/@attajak/attajakgithubio#README.md)
+{: .align-center}
 
 ### ชื่อ
 
