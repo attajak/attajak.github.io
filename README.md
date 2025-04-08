@@ -23,7 +23,7 @@ GitHub Pages: | <https://attajak.github.io>
 GitLab: | [attajak](https://gitlab.com/attajak)
 GitLab Pages: | <https://attajak.gitlab.io>
 BitBucket | [attajak](https://bitbucket.com/attajak)
-BitBucket Pages | <https://attajak.bitbucket.io>
+BitBucket Pages | <https://attajakjanrak.bitbucket.io>
 Google Firebase: | <https://attajak.web.app>
 CloudFlare Pages: | <https://attajak.pages.dev>
 Netlify | <https://attajak.netlify.app>
