@@ -6,8 +6,8 @@
   "scripts": {
     "test": "bundle exec jekyll help",
     "server": "bundle exec jekyll server -IDot -b /",
-    "server:production": "JEKYLL_ENVIRONMENT=production npm run server",
-    "build": "JEKYLL_ENVIRONMENT=production bundle exec jekyll build",
+    "server:production": "JEKYLL_ENV=production npm run server",
+    "build": "JEKYLL_ENV=production bundle exec jekyll build",
     "update": "bundle update"
   },
   "repository": {
