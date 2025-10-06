@@ -42,7 +42,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "jekyll-compose", "~> 0.12.0", group: [:jekyll_plugins]
 
 # Theme
-gem "minimal-mistakes-jekyll", "~> 4.27.0"
+gem "minimal-mistakes-jekyll", "~> 4.27.3"
 
 # Middleware
 gem "faraday-retry", "~> 2.2"
