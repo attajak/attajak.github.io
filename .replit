@@ -12,3 +12,6 @@ requiredFiles = [".replit", "replit.nix", "_config.yml", "Gemfile", "package.jso
 [[ports]]
 localPort = 4000
 externalPort = 80
+
+[agent]
+expertMode = true
