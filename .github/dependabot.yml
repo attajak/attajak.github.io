@@ -12,14 +12,14 @@ updates:
     open-pull-requests-limit: 1000
     assignees:
       - "attajak"
-  - package-ecosystem: "bundler"
+  - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 1000
     assignees:
       - "attajak"
-  - package-ecosystem: "gitsubmodule"
+  - package-ecosystem: "bundler"
     directory: "/"
     schedule:
       interval: "weekly"
