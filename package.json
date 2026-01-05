@@ -5,11 +5,11 @@
   "private": "true",
   "scripts": {
     "jekyll": "bundle exec jekyll",
-    "test": "bundle exec jekyll doctor",
+    "doctor": "bundle exec jekyll doctor",
     "prepare": "git submodule update --init --recursive && bundle install",
-    "server": "bundle exec jekyll server -IDot",
-    "server:production": "JEKYLL_ENV=production npm run server",
-    "build": "JEKYLL_ENV=production bundle exec jekyll build",
+    "server": "bundle exec jekyll server --draft --future --unpublished --livereload --incremental --watch --profile --open_url --trace",
+    "start": "npm run server",
+    "build": "bundle exec jekyll build",
     "update": "git submodule update --remote --merge && bundle update"
   },
   "repository": {

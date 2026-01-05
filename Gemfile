@@ -46,3 +46,4 @@ gem "minimal-mistakes-jekyll", "~> 4.27.3"
 
 # Middleware
 gem "faraday-retry", "~> 2.2"
+
