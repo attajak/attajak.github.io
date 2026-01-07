@@ -4,7 +4,8 @@ hidden = [".bundle", ".config"]
 modules = ["ruby-3.2"]
 
 [nix]
-channel = "stable-24_11"
+channel = "stable-25_05"
+packages = ["jekyll"]
 
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix", "_config.yml", "Gemfile", "package.json"]
