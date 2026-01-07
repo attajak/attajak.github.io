@@ -6,7 +6,7 @@
   "scripts": {
     "jekyll": "bundle exec jekyll",
     "doctor": "bundle exec jekyll doctor",
-    "prepare": "git submodule update --init --recursive && bundle install",
+    "prepare": "git submodule update --init --recursive && bundle install && npm install",
     "server": "bundle exec jekyll server --draft --future --unpublished --livereload --incremental --watch --profile --open_url --trace",
     "start": "npm run server",
     "build": "bundle exec jekyll build",

@@ -1,7 +1,8 @@
-run = "bundle exec jekyll serve --trace --watch --host 0.0.0.0 -o"
+# run = "bundle exec jekyll serve --trace --watch --host 0.0.0.0 -o"
+run = "npm start"
 entrypoint = "README.md"
 hidden = [".bundle", ".config"]
-modules = ["ruby-3.2"]
+modules = ["ruby-3.2", "nodejs-24"]
 
 [nix]
 channel = "stable-25_05"
@@ -13,6 +14,7 @@ requiredFiles = [".replit", "replit.nix", "_config.yml", "Gemfile", "package.jso
 [[ports]]
 localPort = 4000
 externalPort = 80
+exposeLocalhost = true
 
 [agent]
 expertMode = true
