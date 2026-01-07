@@ -15,6 +15,7 @@ gem "jekyll", "~> 4.4"
 # gem "github-pages", "~> 232", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-compose", "~> 0.12.0"
   gem "jekyll-feed", "~> 0.17"
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-sitemap", "~> 1.4"
@@ -38,10 +39,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:windows]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-# Jekyll compose
-gem "jekyll-compose", "~> 0.12.0", group: [:jekyll_plugins]
-
-# Theme
+# Jekyll theme
 gem "minimal-mistakes-jekyll", "~> 4.27.3"
 
 # Middleware
