@@ -8,8 +8,8 @@ The site serves as a portfolio and blog, featuring personal information, contact
 
 ### Key Technologies
 
-*   **Framework:** [Jekyll](https://jekyllrb.com/) (~4.3)
-*   **Theme:** [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) (~4.24)
+*   **Framework:** [Jekyll](https://jekyllrb.com/) (~4.4)
+*   **Theme:** [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) (~4.28.0)
 *   **Hosting:** GitHub Pages (deployed via GitHub Actions)
 *   **Language:** Ruby (for build), HTML/Markdown (content), SCSS (styling)
 *   **Package Management:** `Bundler` (Ruby gems), `npm` (script runners)
@@ -40,10 +40,11 @@ This project uses `npm` scripts as convenient wrappers around `bundle exec jekyl
 
 | Action | NPM Command | Underlying Command | Description |
 | :--- | :--- | :--- | :--- |
-| **Install Dependencies** | `npm run prepare` | `git submodule ... && bundle install` | Installs Ruby gems and updates submodules. |
-| **Start Dev Server** | `npm run server` | `bundle exec jekyll server --draft --future ...` | Starts local server with drafts and future posts enabled. |
+| **Install Dependencies** | `npm run prepare` | `git submodule update ... && bundle install && npm install` | Installs Ruby gems, updates submodules, and installs npm packages. |
+| **Start Dev Server** | `npm run server` / `npm start` | `bundle exec jekyll server --draft --future ...` | Starts local server with drafts, future posts, livereload, and more. |
 | **Build Site** | `npm run build` | `bundle exec jekyll build` | Builds the static site into `_site/`. |
-| **Update Dependencies**| `npm run update` | `git submodule ... && bundle update` | Updates gems and submodules. |
+| **Update Dependencies**| `npm run update` | `git submodule update ... && bundle update` | Updates gems and submodules. |
+| **Jekyll Doctor** | `npm run doctor` | `bundle exec jekyll doctor` | Checks for configuration issues. |
 
 ### Manual Jekyll Commands
 
@@ -74,7 +75,7 @@ JEKYLL_ENV=production bundle exec jekyll build
         published: true
         ---
         ```
-    *   The `jekyll-compose` gem is included, allowing commands like `bundle exec jekyll post "My New Post"` (if configured).
+    *   The `jekyll-compose` gem is included, allowing commands like `bundle exec jekyll post "My New Post"`.
 
 *   **Language:**
     *   The site locale is set to Thai (`th`) in `_config.yml`.
@@ -82,7 +83,7 @@ JEKYLL_ENV=production bundle exec jekyll build
 *   **Theme Customization:**
     *   Theme settings are heavily customized in `_config.yml`.
     *   Look in `_data/navigation.yml` to modify the top navigation bar.
-    *   Styles can be overridden in `assets/css/` or `_sass/` (though mostly standard theme styles are used).
+    *   Styles can be overridden in `assets/css/` or `_sass/`.
 
 *   **Deployment:**
-    *   Deployment is automated via GitHub Actions when pushing to the `main` branch.
+    *   Deployment is automated via GitHub Actions (`.github/workflows/jekyll.yml`) when pushing to the `main` branch.

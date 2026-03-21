@@ -11,11 +11,12 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 theme                    : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
 locale                   : "th"
+rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Attajak Janrak"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -95,6 +96,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
+og_image_alt             : # Alt text for Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -117,18 +119,19 @@ author:
   bio              : "ชื่อคิง เกิด ๘ สิงหาฯ เลือดกรุ๊ปเอ #ดูหนัง #ฟังเพลง #เล่นเกม" # "I am an **amazing** person."
   location         : "Trang, Thailand"
   email            : "janrak@gmail.com"
+  # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-square-envelope"
       url: "mailto:janrak@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://attajak.github.io"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-square-x-twitter"
       url: "https://twitter.com/attajak"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: "fab fa-fw fa-square-facebook"
       url: "https://facebook.com/attajak"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -139,14 +142,15 @@ author:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/attajak"
+
 # Site Footer
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-square-x-twitter"
       url: "https://twitter.com/attajak"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: "fab fa-fw fa-square-facebook"
       url: "https://facebook.com/attajak"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -160,6 +164,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagr.am/attajak"
+  since: "2024"
 
 
 # Reading Files
@@ -187,6 +192,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - log
+  - minimal-mistakes-jekyll.gemspec
   - node_modules
   - package.json
   - package-lock.json
@@ -199,7 +205,6 @@ exclude:
   - jsconfig.json
   - .jekyll-cache
   - .keep
-
 keep_files:
   - .git
   - .svn
@@ -234,7 +239,7 @@ sass:
 
 
 # Outputting
-permalink: pretty # /:categories/:title/
+permalink: pretty
 timezone: Asia/Bangkok # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -301,6 +306,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+# show_taxonomy: false  # set to false to hide tag/category lists on posts
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
