@@ -1,6 +1,6 @@
 # [attajak.github.io](https://attajak.github.io)
 
-[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml) | [![Dependabot Updates](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates) | [![@Attajak on Replit](https://replit.com/badge?caption=Projects%20on%20Replit)](https://replit.com/@attajak)
+[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml) | [![Dependabot Updates](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates) | [![@Attajak on Replit](https://replit.com/badge?caption=Attajak%20on%20Replit)](https://replit.com/@attajak)
 
 ## About
 

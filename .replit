@@ -2,7 +2,7 @@
 run = "npm start"
 entrypoint = "README.md"
 hidden = [".bundle", ".config"]
-modules = ["ruby-3.2", "nodejs-24"]
+modules = ["ruby-4.0", "nodejs-24"]
 
 [nix]
 channel = "stable-25_05"
