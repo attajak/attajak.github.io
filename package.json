@@ -25,7 +25,11 @@
     "jekyll",
     "package"
   ],
-  "author": "attajak (https://github.com/attajak)",
+  "author": {
+    "name": "attajak",
+    "email": "janrak@gmail.com",
+    "link": "https://github.com/attajak)"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/attajak/attajak.github.io/issues"
