@@ -27,6 +27,11 @@ gem "minimal-mistakes-jekyll"
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
   gem "jekyll-compose"
+  gem "jekyll-feed"
+  gem "jekyll-gist"
+  gem "jekyll-include-cache"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
 end
 
