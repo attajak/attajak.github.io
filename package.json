@@ -6,9 +6,9 @@
   "scripts": {
     "jekyll": "bundle exec jekyll",
     "doctor": "bundle exec jekyll doctor",
-    "prepare": "git submodule update --init --recursive && bundle install && npm install",
-    "server": "bundle exec jekyll server --draft --future --unpublished --livereload --incremental --watch --profile --open_url --trace",
-    "start": "npm run server",
+    "prepare": "git submodule update --init --recursive && bundle install",
+    "serve": "bundle exec jekyll serve --draft --future --unpublished --livereload --incremental --watch --profile --open_url --trace",
+    "start": "npm run serve",
     "build": "bundle exec jekyll build",
     "update": "git submodule update --remote --merge && bundle update"
   },
@@ -28,7 +28,7 @@
   "author": {
     "name": "attajak",
     "email": "janrak@gmail.com",
-    "link": "https://github.com/attajak)"
+    "url": "https://github.com/attajak"
   },
   "license": "MIT",
   "bugs": {
