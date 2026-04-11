@@ -34,7 +34,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          submodules: true
+          submodules: false
           fetch-depth: 0
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1 # v1.161.0
