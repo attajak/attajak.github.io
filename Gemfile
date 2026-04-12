@@ -31,9 +31,9 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem "jekyll-include-cache"
   gem "jekyll-paginate"
-  gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
-  # gem "jekyll-import"
+  gem "jekyll-sitemap"
 end
 
+# Middleware
 gem "faraday-retry"
