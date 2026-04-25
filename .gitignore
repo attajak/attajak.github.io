@@ -20,6 +20,7 @@ Gemfile.lock
 node_modules/
 package-lock.json
 pnpm-lock.yaml
+pnpm-workspace.yaml
 yarn.lock
 jsconfig.json
 .env
