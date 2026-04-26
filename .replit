@@ -9,7 +9,7 @@ channel = "stable-25_05"
 packages = ["jekyll"]
 
 [gitHubImport]
-requiredFiles = [".replit", "replit.nix", "_config.yml", "Gemfile", "package.json"]
+requiredFiles = [".replit", "replit.nix", "_config.yml", "Gemfile", "Gemfile.lock", "package.json"]
 
 [[ports]]
 localPort = 4000
