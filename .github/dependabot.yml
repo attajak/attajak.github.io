@@ -9,20 +9,25 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 1000
+    labels:
+      - github-actions
     assignees:
       - "attajak"
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 1000
+    labels:
+      - gitsubmodule
     assignees:
       - "attajak"
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 1000
+    labels:
+      - dependencies
+      - ruby
+      - gems
     assignees:
       - "attajak"
