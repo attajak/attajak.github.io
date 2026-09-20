@@ -29,15 +29,17 @@ group :jekyll_plugins do
   gem "jekyll-compose"
   gem "jekyll-feed"
   gem "jekyll-gist"
+  gem "jekyll-import"
   gem "jekyll-include-cache"
   gem "jekyll-paginate"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
+  gem "jemoji"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
-platforms :windows, :jruby do
+platforms :windows, :jruby, :ruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
 end
