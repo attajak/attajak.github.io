@@ -1,6 +1,6 @@
 {
   "name": "attajak.github.io",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "GitHub Pages",
   "private": "true",
   "scripts": {
@@ -21,10 +21,8 @@
     "attajak",
     "janrak",
     "github",
-    "page",
     "pages",
     "jekyll",
-    "package"
   ],
   "author": {
     "name": "attajak",
