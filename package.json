@@ -4,14 +4,14 @@
   "description": "GitHub Pages",
   "private": "true",
   "scripts": {
-    "jekyll": "bundle exec jekyll",
-    "doctor": "bundle exec jekyll doctor",
-    "prepare": "bundle install",
-    "server": "bundle exec jekyll server --draft --future --unpublished --livereload --incremental --watch --profile --open_url --trace",
+    "jekyll": "bin/jekyll",
+    "doctor": "bin/jekyll doctor",
+    "prepare": "bundle install && bundle binstubs --all",
+    "server": "bin/jekyll server --draft --future --unpublished --livereload --incremental --watch --profile --open_url --trace",
     "start": "npm run server",
-    "build": "bundle exec jekyll build",
+    "build": "bin/jekyll build",
     "update": "bundle update --all",
-    "clean": "bundle exec jekyll clean"
+    "clean": "bin/jekyll clean"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "github",
     "pages",
     "jekyll",
+    "minimal-mistakes-jekyll"
   ],
   "author": {
     "name": "attajak",

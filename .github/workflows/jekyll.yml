@@ -7,6 +7,8 @@
 name: Deploy Jekyll site to Pages
 
 on:
+  pull_request:
+
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
@@ -34,7 +36,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          submodules: false
+          submodules: true
           fetch-depth: 0
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1

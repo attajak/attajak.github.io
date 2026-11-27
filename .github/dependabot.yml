@@ -8,26 +8,26 @@ updates:
   - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "daily"
     labels:
-      - github-actions
+      - "github-actions"
     assignees:
       - "attajak"
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     labels:
-      - gitsubmodule
+      - "gitsubmodule"
     assignees:
       - "attajak"
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     labels:
-      - dependencies
-      - ruby
-      - gems
+      - "dependencies"
+      - "ruby"
+      - "gems"
     assignees:
       - "attajak"

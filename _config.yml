@@ -138,7 +138,7 @@ author:
       url: "https://github.com/attajak"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/attajak"
+      url: "https://instagram.com/attajak"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/attajak"
@@ -163,7 +163,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagr.am/attajak"
+      url: "https://instagr.am/attajak"
   since: "2024"
 
 
@@ -375,3 +375,8 @@ jekyll_compose:
       tags:
       published: true
       sitemap: false
+    pages:
+      description:
+      image:
+      published: true
+      sitemap: true
